@@ -255,7 +255,7 @@ async def get_taxonomy(level: int = 1):
 @app.post("/api/v1/match/recommend-snps")
 async def recommend_snps(
     mse_profile: dict = Body(...),
-    top_k: int = 3
+    top_k: int = 10
 ):
     """
     Recommend top SNPs for an MSE

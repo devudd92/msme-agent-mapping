@@ -1,0 +1,81 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/udayansingh/Desktop/INDIA AI/msme-agent-mapping/frontend/.npmrc
+5 silly config load:file:/Users/udayansingh/.npmrc
+6 silly config load:file:/Users/udayansingh/.npm-global/etc/npmrc
+7 verbose title npm install lucide-react
+8 verbose argv "install" "lucide-react"
+9 verbose logfile logs-max:10 dir:/Users/udayansingh/Desktop/INDIA AI/msme-agent-mapping/frontend/.npm-cache/_logs/2026-02-20T19_48_02_495Z-
+10 verbose logfile /Users/udayansingh/Desktop/INDIA AI/msme-agent-mapping/frontend/.npm-cache/_logs/2026-02-20T19_48_02_495Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest lucide-react@^0.469.0
+16 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/lucide-react 709ms (cache updated)
+18 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:undefined disposed:false
+19 silly fetch manifest react@^18.3.1
+20 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/react 89ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+23 silly placeDep ROOT lucide-react@0.469.0 REPLACE for: msme-agent-mapping@0.0.0 want: ^0.469.0
+24 silly fetch manifest eslint@^3 || ^4 || ^5 || ^6 || ^7
+25 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/eslint 37ms (cache updated)
+27 silly packumentCache full:https://registry.npmjs.org/eslint set size:undefined disposed:false
+28 verbose stack Error: could not resolve
+28 verbose stack     at PlaceDep.failPeerConflict (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:503:25)
+28 verbose stack     at new PlaceDep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/place-dep.js:157:21)
+28 verbose stack     at #buildDepStep (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:920:18)
+28 verbose stack     at async Arborist.buildIdealTree (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:181:7)
+28 verbose stack     at async Promise.all (index 1)
+28 verbose stack     at async Arborist.reify (/usr/local/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:131:5)
+28 verbose stack     at async Install.exec (/usr/local/lib/node_modules/npm/lib/commands/install.js:150:5)
+28 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+28 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+29 error code ERESOLVE
+30 error ERESOLVE could not resolve
+31 error
+32 error While resolving: eslint-plugin-react@7.22.0
+32 error Found: eslint@9.39.2
+32 error node_modules/eslint
+32 error   peer eslint@"^6.0.0 || ^7.0.0 || >=8.0.0" from @eslint-community/eslint-utils@4.9.1
+32 error   node_modules/@eslint-community/eslint-utils
+32 error     @eslint-community/eslint-utils@"^4.8.0" from eslint@9.39.2
+32 error   peer eslint@"^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0" from eslint-plugin-react-hooks@5.2.0
+32 error   node_modules/eslint-plugin-react-hooks
+32 error     dev eslint-plugin-react-hooks@"^5.0.0" from the root project
+32 error   2 more (eslint-plugin-react-refresh, the root project)
+32 error
+32 error Could not resolve dependency:
+32 error peer eslint@"^3 || ^4 || ^5 || ^6 || ^7" from eslint-plugin-react@7.22.0
+32 error node_modules/eslint-plugin-react
+32 error   dev eslint-plugin-react@"^7.22.0" from the root project
+32 error
+32 error Conflicting peer dependency: eslint@7.32.0
+32 error node_modules/eslint
+32 error   peer eslint@"^3 || ^4 || ^5 || ^6 || ^7" from eslint-plugin-react@7.22.0
+32 error   node_modules/eslint-plugin-react
+32 error     dev eslint-plugin-react@"^7.22.0" from the root project
+32 error
+32 error Fix the upstream dependency conflict, or retry
+32 error this command with --force or --legacy-peer-deps
+32 error to accept an incorrect (and potentially broken) dependency resolution.
+33 error
+33 error
+33 error For a full report see:
+33 error /Users/udayansingh/Desktop/INDIA AI/msme-agent-mapping/frontend/.npm-cache/_logs/2026-02-20T19_48_02_495Z-eresolve-report.txt
+34 silly unfinished npm timer reify 1771616882885
+35 silly unfinished npm timer reify:loadTrees 1771616882888
+36 silly unfinished npm timer idealTree:buildDeps 1771616882958
+37 silly unfinished npm timer idealTree:node_modules/eslint-plugin-react 1771616883815
+38 verbose cwd /Users/udayansingh/Desktop/INDIA AI/msme-agent-mapping/frontend
+39 verbose os Darwin 25.2.0
+40 verbose node v22.18.0
+41 verbose npm  v10.9.3
+42 verbose exit 1
+43 verbose code 1
+44 error A complete log of this run can be found in: /Users/udayansingh/Desktop/INDIA AI/msme-agent-mapping/frontend/.npm-cache/_logs/2026-02-20T19_48_02_495Z-debug-0.log
